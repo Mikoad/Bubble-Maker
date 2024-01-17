@@ -1,4 +1,4 @@
-const counterDisplay = document.querySelector("h1");
+const counterDisplay = document.querySelector("h2");
 let counter = 0;
 
 const bubbleMaker = () => {
@@ -27,4 +27,4 @@ const bubbleMaker = () => {
   }, 8000);
 };
 //bubbleMaker
-setInterval(bubbleMaker, 400);
+setInterval(bubbleMaker, 600);

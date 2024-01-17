@@ -22,6 +22,20 @@ body {
   }
 }
 h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(62, 62, 62);
+  animation: maskh1 7s forwards;
+}
+@keyframes maskh1 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+h2 {
   font-size: 10rem;
   text-align: center;
   margin-top: 20px;
