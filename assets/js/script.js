@@ -1,5 +1,12 @@
 const counterDisplay = document.querySelector("h2");
+// const successMessage = document.getElementById("sucessMessage");
 let counter = 0;
+// let displayMessage = false;
+// let tempsPasse = 0;
+// const startTime = new Date().getTime();
+// const timeOnPage = () => {
+//   tempsPasse = new Date().getTime() - startTime;
+// };
 
 const bubbleMaker = () => {
   const bubble = document.createElement("span");
@@ -25,6 +32,13 @@ const bubbleMaker = () => {
   setTimeout(() => {
     bubble.remove();
   }, 8000);
+
+  // if (counter === 10 && !displayMessage) {
+  //   timeOnPage();
+  //   displayMessage = true;
+  //   const message = `Félicitations ! Vous venez de perdre ${tempsPasse} millisecondes sur la page`;
+  //   successMessage.innerHTML = message;
+  // }}
 };
 //bubbleMaker
 setInterval(bubbleMaker, 600);

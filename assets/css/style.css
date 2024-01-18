@@ -41,3 +41,7 @@ h2 {
   margin-top: 20px;
   color: rgba(128, 128, 128, 0.593);
 }
+.successMessage {
+  color: black;
+  font-size: 3rem;
+}
